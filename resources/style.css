@@ -1,0 +1,179 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9px;
+  text-align: center;
+}
+
+/*HEADER, NAVIGATION*/
+
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 2;
+  margin-top: 0rem;
+  padding-left: 10px;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+
+nav span {
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+nav a:link, a:visited {
+  color: seashell;
+}
+
+/*BODY CONTENT*/
+.main {
+  display: block;
+  margin: 50px;
+  top: 5rem;
+}
+
+section {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
+div {
+  display: block;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main {
+  padding-top: 70px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission {
+  padding-top: 70px;
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner {
+  background-color: black;
+  width: 1200px;
+  position: relative;
+}
+
+#location {
+  height: 500px;
+  padding-top: 70px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h2, h4, h5, h3 {
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 10px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.banner2 {
+  padding: 30px;
+}
+
+.featteas {
+  display: flex;
+  min-width: 1000px;
+  height: auto;
+}
+
+.box {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.box span {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.box img {
+  padding-bottom: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+.flex.location {
+  padding-top: 5px;
+}
+
+#location {
+  width: 1100px;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.location {
+  justify-content: space-between;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 300px;
+  height: 300px;
+  margin: 29px;
+}
+
+.ugh {
+  display: block;
+  position: absolute;
+  top: 1675px;
+  left: 555px;
+}
+
+footer {
+  height: 200px;
+  width: auto;
+}
+
+.footer {
+  text-align: left;
+  padding-left: 20px;
+}
